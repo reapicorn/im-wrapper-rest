@@ -52,7 +52,7 @@ public final class JsonParser {
         return new JsonParser(json.strip()).parseValue();
     }
 
-    /** Convenience: parse and cast to Map<String,Object>. */
+    /** Convenience: parse and cast to {@code Map<String,Object>}. */
     @SuppressWarnings("unchecked")
     public static Map<String, Object> parseObject(String json) {
         Object result = parse(json);
@@ -60,7 +60,7 @@ public final class JsonParser {
         return Collections.emptyMap();
     }
 
-    /** Convenience: parse and cast to List<Object>. */
+    /** Convenience: parse and cast to {@code List<Object>}. */
     @SuppressWarnings("unchecked")
     public static List<Object> parseArray(String json) {
         Object result = parse(json);
