@@ -1,0 +1,14 @@
+# Build output
+target/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local OpenAPI spec (contains server info)
+*-openapi.yaml
