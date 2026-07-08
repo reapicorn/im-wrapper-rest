@@ -16,7 +16,7 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: '25'
-          distribution: 'ibm-semeru'
+          distribution: 'semeru'
           cache: maven
 
       - name: Build and test
